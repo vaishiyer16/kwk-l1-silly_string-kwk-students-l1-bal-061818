@@ -31,7 +31,7 @@ puts "There are #{letter_count} letters in #{big_word}"
 
 bigger_word = big_word + "wow" + "mom" # Use String concatenation to add "wow" and "mom" to big_word
 
-new_letter_count = bigger_word.size
+new_letter_count = bigger_word.length
 
 puts "There are now #{new_letter_count} in #{bigger_word}"
 
